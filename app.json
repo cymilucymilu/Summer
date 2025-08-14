@@ -1,0 +1,48 @@
+{
+  "entryPagePath":"pages/index/index",
+  "pages":[
+    "pages/demo01/demo01",
+    "pages/classification/classification",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "icon/_home.png",
+      "selectedIconPath": "icon/home.png"
+    },{
+      "pagePath": "pages/classification/classification",
+      "text": "分类",
+      "iconPath": "icon/_classification.png",
+      "selectedIconPath": "icon/classification.png"
+    },{
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "icon/_cart.png",
+      "selectedIconPath": "icon/cart.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "icon/_my.png",
+      "selectedIconPath": "icon/my.png"
+    }],
+    "color":"#0000FF",
+    "selectedColor":"#4B0082",
+    "backgroundColor":"#00BFFF",
+    "borderStyle":"white",
+    "position":"bottom"
+  },
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#7B68EE",
+    "navigationBarTitleText": "Java1234牛逼",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
